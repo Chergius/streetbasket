@@ -1,6 +1,4 @@
 
-import { BigPlayButton, ControlBar, Player, Shortcut } from 'video-react';
-
 export default function Contatti() {
     return (
         <>

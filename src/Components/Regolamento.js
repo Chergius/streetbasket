@@ -1,5 +1,3 @@
-
-import { BigPlayButton, ControlBar, Player, Shortcut } from 'video-react';
 export default function Regolamento() {
     return (
         <>
