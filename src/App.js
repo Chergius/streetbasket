@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Header from "./Components/Header";
+import Home from './Components/Home';
+import Regolamento from './Components/Regolamento';
+import Contatti from './Components/Contatti';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll">
+      <Header/>
+        <div className="snap-start h-screen w-screen border-black">
+          <Home />
+        </div>
+        <div className="snap-start h-screen w-screen border-black">
+          <Regolamento />
+        </div>
+        <div className="snap-start h-screen w-screen border-black">
+          <Contatti />
+        </div>
+      <Footer/>
     </div>
   );
 }
