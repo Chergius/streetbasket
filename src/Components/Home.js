@@ -1,23 +1,18 @@
 import video from "../video/campoascend.mp4"
-import logo from "../img/logo.jpg"
+import background from "../img/home.png"
 import { useRef } from "react";
+import { StorageImage } from '@aws-amplify/ui-react-storage';
 
 function Home() {
     const videoRef = useRef();
     return (
         <>
-        <div className="relative bg-gradient-to-r from-violet-500 to-fuchsia-500">
-            <video className="max-h-screen w-screen -z-10" autoPlay loop muted>
-              <source
-                src={video} 
-                type="video/mp4"
-                ref={videoRef}
-              />
-            </video>
-            <div className="absolute bottom-1/2 bg-teal-500/70 m:w-screen">
-                <div className="w-auto text-white font-bold sm:text-5xl text-l p-4">Street basket Vol.3</div>
-                <div className="w-auto text-white sm:text-3xl text-s">Lorem Ipsum è un testo segnaposto</div>
-            </div>
+        <div className="bg-gradient-to-l from-zinc-900 to-zinc-600 justify-center h-full grid grid-cols-1 gap-4 content-center ">
+          <div>
+            <StorageImage className="object-cover" path={background} />
+          </div>
+          <div className="w-full sm:text-5xl text-orange-600 text-l p-4">Luglio 22-24-26</div>
+          <div className="w-full sm:text-3xl text-orange-500 text-s">Oratorio San Sebastiano, Lumezzane</div>
         </div>
         </>
     )
