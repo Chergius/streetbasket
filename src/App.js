@@ -1,11 +1,11 @@
-import Home from './Components/Home';
-import Regolamento from './Components/Regolamento';
-import Contatti from './Components/Contatti';
-import Footer from './Components/Footer';
-import VideoPage from './Components/VideoPage';
-import VideoPage2 from './Components/VideoPage2';
-import Sponsor from './Components/Sponsor';
-import Info from './Components/Info';
+import Home from './comp/Home';
+import Regolamento from './comp/Regolamento';
+import Contatti from './comp/Contatti';
+import Footer from './comp/Footer';
+import VideoPage from './comp/VideoPage';
+import VideoPage2 from './comp/VideoPage2';
+import Sponsor from './comp/Sponsor';
+import Info from './comp/Info';
 
 function App() {
   return (
