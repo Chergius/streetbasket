@@ -1,4 +1,4 @@
-import background from "../img/logo2.png"
+import video from "../video/campoascend.mp4"
 export default function Regolamento() {
     return (
         <>
@@ -7,18 +7,18 @@ export default function Regolamento() {
                     <div className="h-1/4 flex w-full text-5xl text-white text-l p-4 font-bold content-center">
                       <div className="content-center">REGOLE</div>
                     </div>
-                    <div className="w-full text-s text-orange-500 text-s p-5">
+                    <div className="w-full text-xs text-orange-500 text-m p-5">
                         <div className="w-full p-2">
                             <ul className="list-disc list-outside ">
-                            <li>Giocatori in campo nr.3 con massimo 2 riserve</li>
-                            <li>Gli incontri terminano al raggiungimento dei 21 punti o al termine di 10 minuti di cronometraggio effettivo</li>
-                            <li>la vincitrice di una parlita riceverà 3 punti per la classifica generale e chi perde 1, in caso di parità arrivati al termine dei 10 minuti entrambe le squadre riceveranno 2 punti</li>
-                            <li>Il primo possesso verrà deciso con un lancio di una moneta</li>
-                            <li>Non saranno concessi time-out</li>
-                            <li>Sono concesse sostituzioni dalla panchina illimitate</li>
-                            <li>Non ci sarà il classico "chi segna regna" e ad ogni rimbalzo difensivo o un canestro subito ci sarà la libera uscita dall'area da 3.</li>
-                            <li>Nelle partite finali, qual’ora le due squadre sono pari a fine dei 10 minuti di gioco e non avendo raggiunto i 21 punti si andrà in oltranza aggiungendo altri 2 minuti</li>
-                            <li>Per tutte le altre regole si farà riferimento al regolamento ufficiale FlP</li>
+                                <li className="p-1">Giocatori in campo nr.3 con massimo 2 riserve</li>
+                                <li className="p-1">Gli incontri terminano al raggiungimento dei 21 punti o al termine di 10 minuti di cronometraggio effettivo</li>
+                                <li className="p-1">La vincitrice di una parlita riceverà 3 punti per la classifica generale e chi perde 1, in caso di parità arrivati al termine dei 10 minuti entrambe le squadre riceveranno 2 punti</li>
+                                <li className="p-1">Il primo possesso verrà deciso con un lancio di una moneta</li>
+                                <li className="p-1">Non saranno concessi time-out</li>
+                                <li className="p-1">Sono concesse sostituzioni dalla panchina illimitate</li>
+                                <li className="p-1">Non ci sarà il classico "chi segna regna" e ad ogni rimbalzo difensivo o un canestro subito ci sarà la libera uscita dall'area da 3.</li>
+                                <li className="p-1">Nelle partite finali, qual’ora le due squadre sono pari a fine dei 10 minuti di gioco e non avendo raggiunto i 21 punti si andrà in oltranza aggiungendo altri 2 minuti</li>
+                                <li className="p-1">Per tutte le altre regole si farà riferimento al regolamento ufficiale FlP</li>
                             </ul>
                         </div>
                     </div>

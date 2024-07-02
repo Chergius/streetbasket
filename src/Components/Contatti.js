@@ -14,7 +14,7 @@ export default function Contatti() {
                     </div>
                 </div>
                 <div className="content-center">
-                    <div className="h-1/4 flex w-full text-5xl text-white text-l p-4 font-bold">
+                    <div className="h-1/2 flex w-full text-5xl text-white text-l p-4 font-bold">
                       <div className="content-center">LUOGO</div>
                     </div>
                     <div className="w-full text-left flex text-xl text-orange-500 text-s p-5 font-bold">
