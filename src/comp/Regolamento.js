@@ -1,4 +1,3 @@
-import video from "../video/campoascend.mp4"
 export default function Regolamento() {
     return (
         <>
